@@ -337,7 +337,7 @@ end;
 procedure UPDATE_SCREEN;
 var
   STUFF : string;
-  RES   : integer;
+  //RES   : integer;
 
 begin
   //update screen
@@ -649,8 +649,8 @@ var
   FNAME : string;
   INSTUFF : textfile;
   STUFF : string; //generic string
-  TT1,TT2: double;
-  RES : integer;
+  //TT1,TT2: double;
+  //RES : integer;
   //TEMP : integer; //debugging
 
 begin
@@ -1020,8 +1020,8 @@ var
   INSTUFF : textfile;
   STUFF,ST1,ST2 : string; //generic strings
   I,SKIP,RES,RES1,RES2 : integer; //number of header lines to skip
-  WAYS : integer; //three different ways data could be stored in experimental file
-  X,Y,JUNK : double;
+  //WAYS : integer; //three different ways data could be stored in experimental file
+  X,Y: double;
   CC : integer;//utility variable
 
   COUNTER: integer; //as above
@@ -1377,8 +1377,8 @@ var
   INSTUFF : textfile;
   STUFF,ST1,ST2 : string; //generic strings
   I,SKIP,RES,RES1,RES2 : integer; //number of header lines to skip
-  WAYS : integer; //three different ways data could be stored in experimental file
-  X,Y,JUNK : double;
+  //WAYS : integer; //three different ways data could be stored in experimental file
+  X,Y : double;
   CC : integer;//utility variable
 
   COUNTER: integer; //as above
@@ -2297,7 +2297,7 @@ procedure TForm1.EXPORT_MODELChange(Sender: TObject);
 //write out everything as a CSV
 
 var
-  I,SKIP,RES : integer;
+  I : integer;
   STUFF,BIT1,BIT2,FNAME : string;
   OUTSTUFF : textfile;
 
